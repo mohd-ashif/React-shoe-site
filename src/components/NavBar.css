@@ -1,0 +1,23 @@
+
+Nav{
+    font-size: 15px;
+    padding-left: 500px;
+    color:rgb(184, 157, 157)
+}
+
+.btn{
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    margin-left:640px;
+
+}
+
+img {
+    position: absolute;
+    top: 0;
+    right:90%;
+    width: 100px;
+    height: 40px;
+    margin-top: 10px;
+    
+  }
