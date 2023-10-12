@@ -26,8 +26,6 @@ function NavBar() {
             <Nav.Link href="#home">ABOUT</Nav.Link>
             <Nav.Link href="#home">CONTACT</Nav.Link>
             <Button variant="danger" className='btn'>LOGIN</Button>{' '}
-            
-
           </Nav>
         </Navbar.Collapse>
       </Container>
