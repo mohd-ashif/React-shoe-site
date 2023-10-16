@@ -17,7 +17,7 @@ function Body() {
     <div class="col-md-6">
       <img className='imag1' src="https://www.upwork.com/catalog-images-resized/507da264ab43e81cf63033f165ac0867/large@2x" alt="" />
 
-      <p>YOUR FEET DESERVE THE BEST AND WE'RE HERE TO <br /> HELP YOU WITH OUR SHOES. YOUR FEET DESERVE <br />THE BEST AND WE'RE HERE TO HELP YOU WITH OUR <br /> SHOES.</p>
+      <p className='para1'>YOUR FEET DESERVE THE BEST AND WE'RE HERE TO <br /> HELP YOU WITH OUR SHOES. YOUR FEET DESERVE <br />THE BEST AND WE'RE HERE TO HELP YOU WITH OUR <br /> SHOES.</p>
    
       <div class="btn-group">
       <div class="button-container">

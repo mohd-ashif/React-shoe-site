@@ -7,6 +7,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Button from 'react-bootstrap/Button';
+import { Link, Outlet } from 'react-router-dom';
 
 function NavBar() {
   return (
@@ -21,15 +22,17 @@ function NavBar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="main">
-            <Nav.Link href="#home">MENU</Nav.Link>
-            <Nav.Link href="#link">LOCATION</Nav.Link>
-            <Nav.Link href="#home">ABOUT</Nav.Link>
-            <Nav.Link href="#home">CONTACT</Nav.Link>
+            <Link to={'/menu'}><Nav.Link href='#home'>MENU</Nav.Link></Link>
+            <Link to={'/Location'}><Nav.Link href='#location'>LOCATION</Nav.Link></Link>
+            <Link to={'/about'}><Nav.Link href='#about'>ABOUT</Nav.Link></Link>
+           <Link to={'/contact'}> <Nav.Link>CONTACT</Nav.Link></Link>
             <Button variant="danger" className='btn'>LOGIN</Button>{' '}
           </Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>
+
+  <Outlet/>
 
 
     </>

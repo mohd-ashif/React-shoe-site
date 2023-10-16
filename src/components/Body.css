@@ -15,11 +15,11 @@
     width: 500px;
 
 }
-p{
-    position: absolute;
-    top: 70%;
-    left: 20%;
-    transform: translateX(-29%) translateY(-30%);
+.para1{
+    
+    padding:10px 195px;
+   margin-top: -70px;
+    
 
 }
 
@@ -37,7 +37,7 @@ p{
   }
   .my-buttons{
   display: flex;
-  margin-top: 50px;
+  margin-top: 10px;
     margin-left: 200px;
     
    
@@ -49,22 +49,22 @@ p{
     }
     .img3{
       position: absolute;
-      top: 125%;
-      left: 90%;
-      transform: translateX(-29%) translateY(10%);
+      top: 40%;
+      left: 102%;
+      transform: translateX(-59%) translateY(66%);
   
 
     }
     .img4{
       position: absolute;
-      top: 130%;
-      left: 60%;
+      top: 60%;
+      left: 72%;
       transform: translateX(-29%) translateY(10%);
 
     }
     .foot{
-     display: flex;
-     padding-left: 100px;
-     padding-top: 110px;
+     
+     padding-left: 200px;
+     padding-top: 10px;
     }
     
